@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/yann/.android/build-cache/7d4263e53eaa5362dc28e5d53d8dd74810326617/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="dd431d6aa9ce9dc0d429fcd239d412a82ea0e9a7">
+        <dex dex="/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/pre-dexed/debug/classes_398623552946ad81815c51e05cc9dabd392b465c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/yann/.android/build-cache/afe0cf9c2051c4d0e08455aa51c8e6b542eef89d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="27.0.3"
+        sha1="746274223beb11b1cda7854d7eec3038695c2c93">
+        <dex dex="/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/pre-dexed/debug/classes_ddabc9c7c4953e83d7c7398df459ce1129b40f0c.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-v21/design_password_eye.xml"
+    }
+]

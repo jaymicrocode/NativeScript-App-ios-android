@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/delete.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/delete.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/pear.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/pear.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/checked_white.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/checked_white.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/logo_signup.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_signup.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/menu.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/menu.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/checked.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/checked.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/banana.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/banana.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/selected.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/selected.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/icon.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/logo_login.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/logo_login.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/unchecked.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/recent.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/recent.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/add.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/add.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/apple.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/apple.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/nonselected.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/nonselected.png"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/unchecked_white.png",
+        "source": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/src/main/res/drawable-xxxhdpi/unchecked_white.png"
+    }
+]
