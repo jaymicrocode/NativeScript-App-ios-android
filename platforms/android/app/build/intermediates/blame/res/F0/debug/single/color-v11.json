@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/F0/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/F0/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/yann/.android/build-cache/6c694c5bfb8248bf8fc35e6b92d7351e91764caf/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

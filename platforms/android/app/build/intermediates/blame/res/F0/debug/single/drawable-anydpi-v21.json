@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/yann/NativeScript-Projects/Groceries/platforms/android/app/build/intermediates/res/merged/F0/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/yann/.android/build-cache/9d6f7c2a98a8578c731cee7c40138f1f8c4d9a8f/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

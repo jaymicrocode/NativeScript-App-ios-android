@@ -2,7 +2,8 @@ StackLayout {
   margin-left: 30;
   margin-right: 30;
   padding-bottom: 15;
-  background-color: white;
+  background-color: #999999; opacity: 0.8;
+  border-radius: 15px;
 }
 Image {
   margin-top: 5;
@@ -12,15 +13,21 @@ Button, TextField {
   margin-left: 16;
   margin-right: 16;
   margin-bottom: 10;
+  font-weight: bold;
+}
+TextField {
+  background-color: #cccccc; opacity: 1;
+  border: 1px solid black;
+
 }
 .submit-button {
-  background-color: green;
+  background-color: green; opacity: 1;
   color: white;
   margin-top: 20;
-  font-weight: bold;
+  border-radius: 17px;
 }
 .signup-button {
-  background-color: #CB1D00;
+  background-color: #CB1D00; opacity: 1;
   color: white;
-  font-weight: bold;
+  border-radius: 17px;
 }

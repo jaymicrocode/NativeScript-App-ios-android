@@ -1,8 +1,9 @@
-import { Component, ElementRef, ViewChild, OnInit } from "@angular/core";
+// imports the social share module
+import * as SocialShare from "nativescript-social-share";
 
+import { Component, ElementRef, ViewChild, OnInit, NgZone } from "@angular/core";
 import { Grocery } from "../../shared/grocery/grocery";
 import { GroceryListService } from "../../shared/grocery/grocery-list.service";
-
 import { TextField } from "ui/text-field";
 
 @Component({
@@ -16,12 +17,13 @@ export class ListComponent implements OnInit {
 
     groceryList: Array<Grocery> = [];
     grocery = "";
-    isLoading = true;
+    isLoading = false;
     listLoaded = false;
 
     @ViewChild("groceryTextField") groceryTextField: ElementRef;
 
-    constructor(private groceryListService: GroceryListService) {}
+    constructor(private groceryListService: GroceryListService,
+                private zone: NgZone) {}
 
     ngOnInit() {
         this.isLoading = true;
@@ -59,5 +61,26 @@ export class ListComponent implements OnInit {
                     this.grocery = "";
                 }
             )
+    }
+
+    // function that handler sharing the grocesry list on social media
+    share() {
+        let listString = this.groceryList
+            .map(grocery => grocery.name)
+            .join(", ")
+            .trim();
+        SocialShare.shareText(listString);
+    }
+
+    //delete a grocery from the list
+    delete(grocery: Grocery) {
+        this.groceryListService.delete(grocery.id)
+            .subscribe(() => {
+                // Running the array splice in a zone ensures that change detection gets triggered.
+                this.zone.run(() => {
+                    let index = this.groceryList.indexOf(grocery);
+                    this.groceryList.splice(index, 1);
+                });
+            });
     }
 }

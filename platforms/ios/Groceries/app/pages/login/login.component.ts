@@ -10,6 +10,9 @@ import { Page } from "ui/page";
 import { Color } from "color";
 import { View } from "ui/core/view";
 
+import { setHintColor } from "../../utils/hint-util";
+import { TextField } from "ui/text-field";
+
 @Component({
     selector: "my-app",
     // The providers array is a simple list of all the Angular services 
@@ -36,8 +39,13 @@ export class LoginComponent implements OnInit {
     // the buttons and eventually the functionality that occurs when you tap them
     isLoggingIn = true;
 
-    // create a new property that points at the <StackLayout> element.
+    // create a new property that points at the <StackLayout>, email and password element.
+    // <StackLayout #container> in login.html
     @ViewChild("container") container: ElementRef;
+    // <TextField #email in login.html
+    @ViewChild("email") email: ElementRef;
+    // <TextField #password in login.html
+    @ViewChild("password") password: ElementRef;
 
     constructor(private userserv: UserService,
                 private router: Router,
@@ -46,18 +54,24 @@ export class LoginComponent implements OnInit {
         this.user = new User();
 
         // hardcode your credentials in your AppComponent’s constructor()
-        this.user.email = "user1@example.com";
-        this.user.password = "password";
+        // this.user.email = "user1@example.com";
+        // this.user.password = "password";
 
     }
 
     // ngOnInit gets invoked when Angular initializes this component.
     ngOnInit() {
         this.page.actionBarHidden = true;
-        this.page.backgroundImage = "res://bg_login";
+        this.page.backgroundImage = this.page.ios ? "res://bg_login.jpg" : "res://bg_login";
     }
 
     submit() {
+        // check the email validity
+        if (!this.user.isValidEmail()) {
+            alert("Enter a valid email address.");
+            return;
+        }
+
         if (this.isLoggingIn) {
             this.login();
         }
@@ -91,11 +105,28 @@ export class LoginComponent implements OnInit {
     toggleDisplay() {
         this.isLoggingIn = !this.isLoggingIn;
 
+        // call the setTextFieldColors()
+        this.setTextFieldColors();
+
         let container = <View>this.container.nativeElement;
         container.animate({
-            backgroundColor: this.isLoggingIn ? new Color("white") : new Color("#301217"),
+            backgroundColor: this.isLoggingIn ? new Color("#999999") : new Color("#301217"),
             duration: 200
         });
+    }
+
+    // function that Change hint colors on iOS
+    setTextFieldColors() {
+        let emailTextField = <TextField>this.email.nativeElement;
+        let passwordTextField = <TextField>this.password.nativeElement;
+
+        let mainTextColor = new Color(this.isLoggingIn ? "black" : "black");
+        emailTextField.color = mainTextColor;
+        passwordTextField.color = mainTextColor;
+
+        let hintColor = new Color(this.isLoggingIn ? "black" : "black");
+        setHintColor({ view: emailTextField, color: hintColor });
+        setHintColor({ view: passwordTextField, color: hintColor });
     }
 
 }

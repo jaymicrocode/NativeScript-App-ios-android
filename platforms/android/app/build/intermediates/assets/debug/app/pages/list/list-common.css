@@ -1,3 +1,24 @@
+/********************************************************************************************/
+
+/* css animation to fade in the page’s <ListView> after your data loads                     */
+/********************************************************************************************/
+ListView {
+  opacity: 0;
+}
+.visible {
+  animation-name: show;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes show {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/********************************************************************************************/
+
+/* css for adding item bar                                                                  */
+/********************************************************************************************/
 .add-bar {
   background-color: #CB1D00;
   padding: 5 10;
