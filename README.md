@@ -1,11 +1,11 @@
 # Grocery App - NativeScript-ios-android
 This is a result of Grocery App from NativeScript tutorial. This is great to start if you re new with NativeScript App develepomment.
 
-# Getting Started
+## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 See deployment for notes on how to deploy the project on a live system.
 
-# Prerequisites
+## Prerequisites
 This app is built with the NativeScript CLI. You need the folling in order to succefuly run this app:
 
 Angular CLI, NativeScript CLI, NodeJs
