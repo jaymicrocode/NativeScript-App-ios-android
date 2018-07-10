@@ -1,5 +1,5 @@
 # Grocery App - NativeScript-ios-android
-This is a result of Grocery App from NativeScript tutorial. This is great to start if you re new with NativeScript App develepomment.
+This is a result Grocery App from NativeScript tutorial: use NativeScript, a cross-platform JavaScript framework for building native mobile apps, to build an iOS and Android app from scratch.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
